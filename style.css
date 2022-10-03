@@ -47,13 +47,15 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: xx-large;
+    color: white;
 }
 .nav-links{
     position: relative;
     top: 31px;
     left: 55vh;
-  
+    display: block ruby;
 }
+
 .slash{
     position: relative;
     font-size: 64px;
@@ -63,13 +65,133 @@ left: 56vh;
 }
 
 .logup{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 30px;
 }
 .login{
-    font-size: xx-large;
+    font-size: xx-large ;
+    /* margin-left: 237px; */
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    
 }
+.login a{
+    margin-left: 340px;
+    color: white;
+    text-decoration: none;
+
+}
+.signup{
+    font-size: xx-large ;
+    /* margin-left: 237px; */
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+}
+.signup a{
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Paragraph */
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 25vh;
+    margin-left: 20vh;
+}
+
+.para h1{
+    color: rgb(4, 139, 139);
+    font-size: xxx-large;
+    font-stretch: expanded;
+
+}
+
+.para p{
+    width: 450px;
+    color: whitesmoke;
+    font-size: larger;
+    font-stretch: expanded;
+    margin-top: 2vh;
+    font-size: x-large;
+}
+.btn{
+    margin-left: 28vh;
+    margin-top: 3vh;
+    padding: 10px;
+    padding-left: 70px;
+padding-right: 70px;
+border-radius: 30px;
+color: white;
+background-color: rgb(4, 139, 139);
+font-size: x-large;
+
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -43vh;
+}
+.img1{
+    margin-top: -14vh;
+    margin-right: -85vh;
+    display: flex;
+    height: 30vh;
+    width: 55vh;
+   
+}
+#img1{
+    height: 30vh;
+    width: 55vh;
+    border: 5px solid rgb(90, 6, 6);
+    border-radius: 2px;
+    
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 65vh;
+    margin-top: 23vh;
+}
+#img2{
+    width: 45vh;
+    height: 25vh;
+    border: 5px solid rgb(90, 6, 6);
+    border-radius: 2px;
+   
+}
+
+/* footer */
+
+footer{
+    height: 5vh;
+    background-color: rgb(4, 139, 139);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 32vh;
+    
+    }
+    .flex-all-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
 
 
